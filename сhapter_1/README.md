@@ -27,13 +27,13 @@ int main()
 
 ## Упражнения раздела 1.2
 
->[Задание 1.3](https://github.com/Garo27/C-_Primer_5th_edition/blob/main/%D1%81hapter_1/exercise_3.cpp)
+>[Задание 1.3](https://github.com/Garo27/C-_Primer_5th_edition/blob/main/%D1%81hapter_1/exercise_03.cpp)
 
->[Задание 1.4](https://github.com/Garo27/C-_Primer_5th_edition/blob/main/%D1%81hapter_1/exercise_4.cpp)
+>[Задание 1.4](https://github.com/Garo27/C-_Primer_5th_edition/blob/main/%D1%81hapter_1/exercise_04.cpp)
 
->[Задание 1.5](https://github.com/Garo27/C-_Primer_5th_edition/blob/main/%D1%81hapter_1/exercise_5.cpp)
+>[Задание 1.5](https://github.com/Garo27/C-_Primer_5th_edition/blob/main/%D1%81hapter_1/exercise_05.cpp)
 
->[Задание 1.6](https://github.com/Garo27/C-_Primer_5th_edition/blob/main/%D1%81hapter_1/exercise_6.cpp)
+>[Задание 1.6](https://github.com/Garo27/C-_Primer_5th_edition/blob/main/%D1%81hapter_1/exercise_06.cpp)
 
 **Объясните, является ли следующий фрагмент программы допустимым?**
 ``` c++
@@ -44,7 +44,7 @@ std::cout << "The sum of " << v1;
 **Код некорректен потому что в первой строке в самом конце стоит точка с запятой `;`, она завершает инструкцию вывода, а следующие строки начинаются сразу с оператора `<<`.**
 
 ## Упражнения раздела 1.3
->[Задание 1.7](https://github.com/Garo27/C-_Primer_5th_edition/blob/main/%D1%81hapter_1/exercise_7.cpp)
+>[Задание 1.7](https://github.com/Garo27/C-_Primer_5th_edition/blob/main/%D1%81hapter_1/exercise_07.cpp)
 ``` c++
 /*
  * парный комментарий /* */ не допускает вложения
@@ -63,7 +63,7 @@ int main()
 **В C++ парные комментарии `/* ... */` не могут быть вложенными. Компилятор ищет первую попавшуюся закрывающую последовательность `*/`.**
 
 
->[Задание 1.8](https://github.com/Garo27/C-_Primer_5th_edition/blob/main/%D1%81hapter_1/exercise_8.cpp)
+>[Задание 1.8](https://github.com/Garo27/C-_Primer_5th_edition/blob/main/%D1%81hapter_1/exercise_08.cpp)
 
 **Какой из следующих операторов вывода (если есть) является допустимым:**
 ``` c++
@@ -92,5 +92,5 @@ int main()
 }
 ```
 ## Упражнения раздела 1.4.1
->[Задание 1.9](https://github.com/Garo27/C-_Primer_5th_edition/blob/main/%D1%81hapter_1/exercise_9.cpp)
+>[Задание 1.9](https://github.com/Garo27/C-_Primer_5th_edition/blob/main/%D1%81hapter_1/exercise_09.cpp)
 
