@@ -32,3 +32,12 @@ int main()
 >[Задание 1.4](https://github.com/Garo27/C-_Primer_5th_edition/blob/main/%D1%81hapter_1/exercise_4.cpp)
 
 >[Задание 1.5](https://github.com/Garo27/C-_Primer_5th_edition/blob/main/%D1%81hapter_1/exercise_5.cpp)
+
+>[Задание 1.6]
+
+``` c++
+std::cout << "The sum of " << v1
+          << " and " << v2
+          << " is " << v1 + v2 << std::endl;
+```
+
