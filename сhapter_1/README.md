@@ -91,3 +91,6 @@ int main()
     return 0;
 }
 ```
+## Упражнения раздела 1.4.1
+>[Задание 1.9](https://github.com/Garo27/C-_Primer_5th_edition/blob/main/%D1%81hapter_1/exercise_9.cpp)
+
