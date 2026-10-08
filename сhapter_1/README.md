@@ -74,7 +74,7 @@ std::cout << /* "*/" /* "/*" */;
 ```
 **Корректными являются первая, вторая и четвертая строки. Третья строка содержит ошибку компиляции.**
 
-## Использование ператора while
+## Использование оператора while
 ``` c++
 #include <iostream>
 int main()
@@ -97,3 +97,18 @@ int main()
 >[Задание 1.10](https://github.com/Garo27/C-_Primer_5th_edition/blob/main/%D1%81hapter_1/exercise_10.cpp)
 
 >[Задание 1.11](https://github.com/Garo27/C-_Primer_5th_edition/blob/main/%D1%81hapter_1/exercise_11.cpp)
+
+## Использование оператора for
+``` c++
+#include <iostream>
+int main()
+{
+    int sum = 0;
+    // сложить числа от 1 до 10 включительно
+    for (int val = 1; val <= 10; ++val)
+        sum += val; // эквивалентно sum = sum + val
+    std::cout << "Sum of 1 to 10 inclusive is "
+              << sum << std::endl;
+    return 0;
+}
+```
