@@ -115,3 +115,5 @@ int main()
 ## Упражнения раздела 1.4.2
 >[Задание 1.12](https://github.com/Garo27/C-_Primer_5th_edition/blob/main/%D1%81hapter_1/exercise_12.cpp)  
 Данный цикл `for` выполняет сложение от -100 до 100, в результате которого значение переменной `sum = 0`
+
+>[Задание 1.13_1](https://github.com/Garo27/C-_Primer_5th_edition/blob/main/%D1%81hapter_1/exercise_13_1.cpp) <br> [Задание 1.13_2](https://github.com/Garo27/C-_Primer_5th_edition/blob/main/%D1%81hapter_1/exercise_13_2.cpp) <br> [Задание 1.13_3](https://github.com/Garo27/C-_Primer_5th_edition/blob/main/%D1%81hapter_1/exercise_13_3.cpp)
