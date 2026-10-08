@@ -96,3 +96,4 @@ int main()
 
 >[Задание 1.10](https://github.com/Garo27/C-_Primer_5th_edition/blob/main/%D1%81hapter_1/exercise_10.cpp)
 
+>[Задание 1.11](https://github.com/Garo27/C-_Primer_5th_edition/blob/main/%D1%81hapter_1/exercise_11.cpp)
