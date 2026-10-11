@@ -167,7 +167,7 @@ int main() {
 #include <iostream>
 
 int main() {
-	// Ошибка: попытка присвоить строковый литерал ("привет") переменной типа int
+// Ошибка: попытка присвоить строковый литерал ("привет") переменной типа int
     int number = "привет";
     
     return 0;
@@ -182,7 +182,7 @@ int main() {
 	int sum = 0, value = 0;
 	// читать данные до конца файла, вычислить сумму всех значений
 	while (std::cin >> value)
-		sum += value; // эквивалентно sum = sum = val
+		sum += value; // эквивалентно sum = sum + value
 	std::cout << "Sum is: " << sum << std::endl;
 	return 0;
 }
