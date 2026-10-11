@@ -173,3 +173,19 @@ int main() {
     return 0;
 }
 ```
+
+##Ввод неизвестного количества данных
+
+``` c++
+#include <iostream>
+int main() {
+	int sum = 0, value = 0;
+	// читать данные до конца файла, вычислить сумму всех значений
+	while (std::cin >> value)
+		sum += value; // эквивалентно sum = sum = val
+	std::cout << "Sum is: " << sum << std::endl;
+	return 0;
+}
+```
+
+>[Задание 1.16])()
