@@ -5,7 +5,7 @@
 <img width="593" height="205" alt="image" src="https://github.com/user-attachments/assets/6bf0e8d0-24d4-416d-ac37-c8ff0e69b943" />
 
 
->[Задание 1.2](https://github.com/Garo27/C-_Primer_5th_edition/blob/main/%D1%81hapter_01/exercise_02.cpp)
+>[Задание 1.2](exercise_02.cpp)
 
 <img width="588" height="243" alt="image" src="https://github.com/user-attachments/assets/ce8f95c9-8e1c-4f77-8197-f21304f7f882" />
 
@@ -27,13 +27,13 @@ int main()
 
 ## Упражнения раздела 1.2
 
->[Задание 1.3](https://github.com/Garo27/C-_Primer_5th_edition/blob/main/%D1%81hapter_01/exercise_03.cpp)
+>[Задание 1.3](exercise_03.cpp)
 
->[Задание 1.4](https://github.com/Garo27/C-_Primer_5th_edition/blob/main/%D1%81hapter_01/exercise_04.cpp)
+>[Задание 1.4](exercise_04.cpp)
 
->[Задание 1.5](https://github.com/Garo27/C-_Primer_5th_edition/blob/main/%D1%81hapter_01/exercise_05.cpp)
+>[Задание 1.5](exercise_05.cpp)
 
->[Задание 1.6](https://github.com/Garo27/C-_Primer_5th_edition/blob/main/%D1%81hapter_01/exercise_06.cpp)
+>[Задание 1.6](exercise_06.cpp)
 
 **Объясните, является ли следующий фрагмент программы допустимым?**
 ``` c++
@@ -44,7 +44,7 @@ std::cout << "The sum of " << v1;
 **Код некорректен потому что в первой строке в самом конце стоит точка с запятой `;`, она завершает инструкцию вывода, а следующие строки начинаются сразу с оператора `<<`.**
 
 ## Упражнения раздела 1.3
->[Задание 1.7](https://github.com/Garo27/C-_Primer_5th_edition/blob/main/%D1%81hapter_01/exercise_07.cpp)
+>[Задание 1.7](exercise_07.cpp)
 ``` c++
 /*
  * парный комментарий /* */ не допускает вложения
@@ -63,7 +63,7 @@ int main()
 **В C++ парные комментарии `/* ... */` не могут быть вложенными. Компилятор ищет первую попавшуюся закрывающую последовательность `*/`.**
 
 
->[Задание 1.8](https://github.com/Garo27/C-_Primer_5th_edition/blob/main/%D1%81hapter_01/exercise_08.cpp)
+>[Задание 1.8](exercise_08.cpp)
 
 **Какой из следующих операторов вывода (если есть) является допустимым:**
 ``` c++
@@ -92,11 +92,11 @@ int main()
 }
 ```
 ## Упражнения раздела 1.4.1
->[Задание 1.9](https://github.com/Garo27/C-_Primer_5th_edition/blob/main/%D1%81hapter_01/exercise_09.cpp)
+>[Задание 1.9](exercise_09.cpp)
 
->[Задание 1.10](https://github.com/Garo27/C-_Primer_5th_edition/blob/main/%D1%81hapter_01/exercise_10.cpp)
+>[Задание 1.10](exercise_10.cpp)
 
->[Задание 1.11](https://github.com/Garo27/C-_Primer_5th_edition/blob/main/%D1%81hapter_01/exercise_11.cpp)
+>[Задание 1.11](exercise_11.cpp)
 
 ## Использование оператора for
 ``` c++
@@ -113,10 +113,10 @@ int main()
 }
 ```
 ## Упражнения раздела 1.4.2
->[Задание 1.12](https://github.com/Garo27/C-_Primer_5th_edition/blob/main/%D1%81hapter_01/exercise_12.cpp)  
+>[Задание 1.12](exercise_12.cpp)  
 Данный цикл `for` выполняет сложение от -100 до 100, в результате которого значение переменной `sum = 0`
 
->[Задание 1.13_1](https://github.com/Garo27/C-_Primer_5th_edition/blob/main/%D1%81hapter_01/exercise_13_1.cpp) <br> [Задание 1.13_2](https://github.com/Garo27/C-_Primer_5th_edition/blob/main/%D1%81hapter_01/exercise_13_2.cpp) <br> [Задание 1.13_3](https://github.com/Garo27/C-_Primer_5th_edition/blob/main/%D1%81hapter_01/exercise_13_3.cpp)
+>[Задание 1.13_1](exercise_13_1.cpp) <br> [Задание 1.13_2](exercise_13_2.cpp) <br> [Задание 1.13_3](exercise_13_3.cpp)
 
 >[Задание 1.14]<br>
 >Используйте `for`, rогда известно точное число итераций.<br>
@@ -189,7 +189,7 @@ int main() {
 ```
 
 ## Упражнение раздела 1.4.3
->[Задание 1.16](https://github.com/Garo27/C-_Primer_5th_edition/blob/main/%D1%81hapter_01/exercise_16.cpp)
+>[Задание 1.16](exercise_16.cpp)
 
 ## Оператор if:
 
