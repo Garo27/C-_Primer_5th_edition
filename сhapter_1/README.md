@@ -190,3 +190,34 @@ int main() {
 
 ## Упражнение раздела 1.4.3
 >[Задание 1.16](https://github.com/Garo27/C-_Primer_5th_edition/blob/main/%D1%81hapter_1/exercise_16.cpp)
+
+## Оператор if:
+
+``` c++
+#include <iostream>
+int main()
+{
+    // currVal - подсчитываемое число; новые значений будем читать в val
+    int currVal = 0, val = 0;
+    // прочитать первое число и удостовериться в наличии данных
+    // для обработки
+    if (std::cin >> currVal) {
+        int cnt = 1; // сохранить счет для текущего значения
+        while (std::cin >> val) { // читать остальные числа
+            if (val == currVal)   // если значение то же
+                ++cnt;            // добавить 1 к cnt
+            else {                // в противном случае вывести счет для
+                                  // предыдущего значения
+                std::cout << currVal << " occurs " 
+                          << cnt << " times " << std::endl;
+                currVal = val;    // запомнить новое значение
+                cnt = 1;          // сбросить счетчик
+            }
+        } // цикл while заканчивается здесь
+        // не забыть вывести счет для последнего значения
+        std::cout << currVal << " occurs " 
+                  << cnt << " times " << std::endl;
+    } // первый оператор if заканчивается здесь
+    return 0;
+}
+```
