@@ -268,6 +268,6 @@ int main()
 
 ## Упражнения раздела 1.5.1
 
->[Задание 1.20]()  
+>[Задание 1.20](exercise_20.cpp)  
 >[Sales_item.h](sales_item.h)  
->[Version_test.h](version_test.h)
+>[Version_test.h](version_test.h)  
