@@ -270,4 +270,8 @@ int main()
 
 >[Задание 1.20](exercise_20.cpp)  
 >[Sales_item.h](sales_item.h)  
->[Version_test.h](version_test.h)  
+>[Version_test.h](version_test.h)
+
+>[Задание 1.21](exercise_21.cpp)
+
+>[Задание 1.22](exercise_22.cpp)
