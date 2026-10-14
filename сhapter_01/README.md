@@ -265,3 +265,9 @@ int main()
 ```
 >0-201-78345-X 3 20.00  
 0-201-78345-X 2 25.00
+
+## Упражнения раздела 1.5.1
+
+>[Задание 1.20]()  
+>[Sales_item.h](sales_item.h)  
+>[Version_test.h](version_test.h)
