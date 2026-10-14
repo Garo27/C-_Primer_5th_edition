@@ -231,3 +231,37 @@ int main()
 >[Задание 1.18](exercise_18.cpp)
 
 >[Задание 1.19](exercise_19.cpp)
+
+## Чтение и запись объектов класса Sales_items
+
+``` c++
+#include <iostream>
+#include "Sales_item.h"
+int main()
+{
+    Sales_item book;
+    // прочитать ISBN, количество проданных экземпляров и цену 
+    std::cin >> book;
+    // вывести ISBN, количество проданных экземпляров,
+    // общую сумму и среднюю цену
+    std::cout << book << std::endl;
+    return 0;
+}
+```
+>0-201-70353-X 4 24.99
+
+## Суммирование объектов класса Sales_items
+
+``` c++
+#include <iostream>
+#include "Sales_item.h"
+int main()
+{
+    Sales_item item1, item2;
+    std::cin >> item1 >> item2;              // прочитать две транзакции
+    std::cout << item1 + item2 << std::endl; // отобразить их сумму
+    return 0;
+}
+```
+>0-201-78345-X 3 20.00  
+0-201-78345-X 2 25.00
