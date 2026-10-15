@@ -5,8 +5,7 @@ int main()
     Sales_item obj, temp;
     if (std::cin >> obj) {
         while (std::cin >> temp) {
-            if (obj.isbn() == temp.isbn())
-                obj += temp;
+            obj += temp;
         }
         std::cout << obj << std::endl;
     }
