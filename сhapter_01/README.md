@@ -302,4 +302,4 @@ int main()
 
 >[Задание 1.23](exercise_23.cpp)
 
->
+>[Задание 1.24](transactions.txt)
