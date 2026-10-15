@@ -9,12 +9,12 @@ int main()
             if (currObj.isbn() == Obj.isbn())
                 ++cnt;
             else {
-                std::cout << currObj << " occurs " << cnt << " times" << std::endl;
+                std::cout << currObj.isbn() << " occurs " << cnt << " times" << std::endl;
                 currObj = Obj;
                 cnt = 1;
             }
         }
-        std::cout << currObj << " occurs " << cnt << " times" << std::endl;
+        std::cout << currObj.isbn() << " occurs " << cnt << " times" << std::endl;
     }
     return 0;
 }
