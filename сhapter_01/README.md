@@ -303,3 +303,7 @@ int main()
 >[Задание 1.23](exercise_23.cpp)
 
 >[Задание 1.24](transactions.txt)
+
+## Упражнения раздела 1.6
+
+>[Задание 1.25](exercise_25.cpp)
