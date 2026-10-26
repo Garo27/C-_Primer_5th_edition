@@ -94,3 +94,15 @@ Who goes with Fergus? - строковый литерал
 ```
 
 >[Задание 2.8](exercise_08.cpp)
+
+## Определение переменных
+``` c++
+int sum = 0, value, // sum, value и units_sold имеют тип int
+    units_sold = 0; // sum и units_sold инициализированы значением 0
+Sales_item item; // item имеет тип Sales_item
+// string - библиотечный тип, представлюящий последовательности символов
+// переменной длины
+std::string book("0-201-78345-X"); // book инициализирована строковым
+                                   // литералом
+```
+
