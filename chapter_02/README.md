@@ -125,3 +125,15 @@ salePrice = applyDiscount(price, discount);
 (d) int i = 3.14; // Синтаксис правильный, но дробная часть отсечется
 ```
 
+>[Задание 2.10]
+``` c++
+#include <iostream>
+#include <string>
+std::string global_str; // Пустая строка
+int global_int; // Значение 0 
+int main()
+{
+    int local_int; // Неопределенное значение
+    std::string local_str; // Пустая строка
+}
+```
